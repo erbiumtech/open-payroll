@@ -5,7 +5,7 @@
 
 ## About Open Payroll
 
-[Open Payroll](https://github.com/devjaythakkar/open-payroll/) is an Open Source Initiative for Payroll System - which means you can grab the code to be use in your exisitng Laravel application.
+[Open Payroll](https://github.com/erbiumtech/open-payroll/) is an Open Source Initiative for Payroll System - which means you can grab the code to be use in your exisitng Laravel application.
 
 Following are the features provided:
 
@@ -21,22 +21,22 @@ Following are the features provided:
 
 ## Installation
 
-1. In order to install `devjaythakkar/open-payroll` in your Laravel project, just run the *composer require* command from your terminal:
+1. In order to install `erbiumtech/open-payroll` in your Laravel project, just run the *composer require* command from your terminal:
 
 ```
-$ composer require devjaythakkar/open-payroll
+$ composer require erbiumtech/open-payroll
 ```
 
 2. You can skip this step if your running Laravel 5.6 and above. Then in your `config/app.php` add the following to the providers array:
 
 ```php
-JayThakkar\OpenPayroll\OpenPayrollServiceProvider::class,
+ErbiumTech\OpenPayroll\OpenPayrollServiceProvider::class,
 ```
 
 3. You can skip this step if your running Laravel 5.6 and above. In the same `config/app.php` add the following to the aliases array:
 
 ```php
-'OpenPayroll' => JayThakkar\OpenPayroll\OpenPayrollFacade::class,
+'OpenPayroll' => ErbiumTech\OpenPayroll\OpenPayrollFacade::class,
 ```
 
 4. If you're running Laravel 5.8 or above you need to alter the users table migration.
@@ -62,7 +62,7 @@ $ php artisan migrate
 $ php artisan vendor:publish --tag=laravel-observers
 ```
 
-Then add the Open Payroll models to the `config/observers.php` in `\JayThakkar\LaravelObservers\Observers\HashidsObserver::class` key. This will allow the observer to create hashed slug for each record automatically.
+Then add the Open Payroll models to the `config/observers.php` in `\ErbiumTech\LaravelObservers\Observers\HashidsObserver::class` key. This will allow the observer to create hashed slug for each record automatically.
 
 ```php
 return [
@@ -105,7 +105,7 @@ $ vendor/bin/phpunit -v --coverage-text --colors=never --stderr
 
 ## Contributing
 
-Thank you for considering contributing to the `devjaythakkar/open-payroll`!
+Thank you for considering contributing to the `erbiumtech/open-payroll`!
 
 ### Bug Reports
 
@@ -117,7 +117,7 @@ Remember, bug reports are created in the hope that others with the same problem 
 
 ## Coding Style
 
-`devjaythakkar/open-payroll` follows the PSR-2 coding standard and the PSR-4 autoloading standard. 
+`erbiumtech/open-payroll` follows the PSR-2 coding standard and the PSR-4 autoloading standard. 
 
 You may use PHP CS Fixer in order to keep things standardised. PHP CS Fixer configuration can be found in `.php_cs`.
 
