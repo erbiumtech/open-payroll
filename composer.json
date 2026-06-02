@@ -32,7 +32,6 @@
         "cleaniquecoders/laravel-helper": "^4.2",
         "cleaniquecoders/laravel-observers": "^4.2",
         "cleaniquecoders/profile": "^6.3.0",
-        "devjaythakkar/money-wrapper": "dev-master",
         "illuminate/support": "^9.0 | ^10.0 | ^11.0 | ^12.0 | ^13.0",
         "maatwebsite/excel": "^3.1"
     },
