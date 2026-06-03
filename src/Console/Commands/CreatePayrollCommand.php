@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Console\Commands;
+namespace ErbiumTech\OpenPayroll\Console\Commands;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;

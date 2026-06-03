@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Http;
+namespace ErbiumTech\OpenPayroll\Tests\Http;
 
-use JayThakkar\OpenPayroll\Tests\TestCase;
+use ErbiumTech\OpenPayroll\Tests\TestCase;
 use Illuminate\Routing\Router;
 
 class RouteTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Traits;
+namespace ErbiumTech\OpenPayroll\Tests\Traits;
 
-use JayThakkar\OpenPayroll\Models\Deduction\Type as DeductionType;
+use ErbiumTech\OpenPayroll\Models\Deduction\Type as DeductionType;
 
 trait DeductionTrait
 {
@@ -27,7 +27,7 @@ trait DeductionTrait
                 'name'              => $type->name,
                 'description'       => $type->description,
                 'amount'            => 100000,
-            ], \JayThakkar\OpenPayroll\Models\Deduction\Deduction::class);
+            ], \ErbiumTech\OpenPayroll\Models\Deduction\Deduction::class);
         }
     }
 }

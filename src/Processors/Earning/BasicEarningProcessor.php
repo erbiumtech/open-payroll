@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Processors\Earning;
+namespace ErbiumTech\OpenPayroll\Processors\Earning;
 
 class BasicEarningProcessor extends BaseEarningProcessor
 {

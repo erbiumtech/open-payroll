@@ -517,7 +517,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "JayThakkar\\MoneyWrapper\\MoneyWrapperServiceProvider"
+                        "ErbiumTech\\MoneyWrapper\\MoneyWrapperServiceProvider"
                     ]
                 }
             },
@@ -526,7 +526,7 @@
                     "src/Support/helpers.php"
                 ],
                 "psr-4": {
-                    "JayThakkar\\MoneyWrapper\\": "src/"
+                    "ErbiumTech\\MoneyWrapper\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

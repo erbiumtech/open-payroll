@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use JayThakkar\OpenPayroll\Traits\ReferenceTrait;
+use ErbiumTech\OpenPayroll\Traits\ReferenceTrait;
 use Illuminate\Database\Seeder;
 
 class OpenPayrollSeeder extends Seeder

@@ -1,9 +1,9 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Models\Payslip;
+namespace ErbiumTech\OpenPayroll\Models\Payslip;
 
-use JayThakkar\OpenPayroll\Models\Earning\Deduction;
-use JayThakkar\OpenPayroll\Models\Earning\Earning;
+use ErbiumTech\OpenPayroll\Models\Earning\Deduction;
+use ErbiumTech\OpenPayroll\Models\Earning\Earning;
 use Illuminate\Database\Eloquent\Model;
 
 class Payslip extends Model

@@ -1,9 +1,9 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Database;
+namespace ErbiumTech\OpenPayroll\Tests\Database;
 
-use JayThakkar\OpenPayroll\Tests\TestCase;
-use JayThakkar\OpenPayroll\Tests\Traits\PayrollTrait;
+use ErbiumTech\OpenPayroll\Tests\TestCase;
+use ErbiumTech\OpenPayroll\Tests\Traits\PayrollTrait;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Str;
 
@@ -56,7 +56,7 @@ class DeductionDatabaseTest extends TestCase
                 'name'              => $type->name,
                 'description'       => 'Deduction for ' . $type->name,
                 'amount'            => 10000,
-            ], \JayThakkar\OpenPayroll\Models\Deduction\Deduction::class);
+            ], \ErbiumTech\OpenPayroll\Models\Deduction\Deduction::class);
         }
 
         foreach ($deduction_types as $type) {

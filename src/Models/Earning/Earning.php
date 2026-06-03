@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Models\Earning;
+namespace ErbiumTech\OpenPayroll\Models\Earning;
 
 use Illuminate\Database\Eloquent\Model;
 

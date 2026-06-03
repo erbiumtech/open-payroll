@@ -5,4 +5,4 @@
 |--------------------------------------------------------------------------
 */
 
-\JayThakkar\OpenPayroll\OpenPayroll::routes();
+\ErbiumTech\OpenPayroll\OpenPayroll::routes();

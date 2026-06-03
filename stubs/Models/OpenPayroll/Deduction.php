@@ -2,7 +2,7 @@
 
 namespace App\Models\OpenPayroll;
 
-use JayThakkar\OpenPayroll\Models\Deduction\Deduction as OPDeduction;
+use ErbiumTech\OpenPayroll\Models\Deduction\Deduction as OPDeduction;
 
 class Deduction extends OPDeduction
 {

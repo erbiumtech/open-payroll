@@ -11,12 +11,12 @@ $factory->define(\App\Models\OpenPayroll\Employee::class, function(Faker $faker)
     ];
 });
 
-$factory->define(\JayThakkar\OpenPayroll\Models\Payroll\Payroll::class, function(Faker $faker) {
+$factory->define(\ErbiumTech\OpenPayroll\Models\Payroll\Payroll::class, function(Faker $faker) {
     return [
     ];
 });
 
-$factory->define(\JayThakkar\OpenPayroll\Models\Payslip\Payslip::class, function(Faker $faker) {
+$factory->define(\ErbiumTech\OpenPayroll\Models\Payslip\Payslip::class, function(Faker $faker) {
     return [
         'total_earning'   => 0,
         'total_deduction' => 0,
@@ -26,7 +26,7 @@ $factory->define(\JayThakkar\OpenPayroll\Models\Payslip\Payslip::class, function
     ];
 });
 
-$factory->define(\JayThakkar\OpenPayroll\Models\Deduction\Deduction::class, function(Faker $faker) {
+$factory->define(\ErbiumTech\OpenPayroll\Models\Deduction\Deduction::class, function(Faker $faker) {
     return [
         'name'              => $faker->sentence,
         'description'       => $faker->sentence,
@@ -35,7 +35,7 @@ $factory->define(\JayThakkar\OpenPayroll\Models\Deduction\Deduction::class, func
     ];
 });
 
-$factory->define(\JayThakkar\OpenPayroll\Models\Earning\Earning::class, function(Faker $faker) {
+$factory->define(\ErbiumTech\OpenPayroll\Models\Earning\Earning::class, function(Faker $faker) {
     return [
         'name'            => $faker->sentence,
         'description'     => $faker->sentence,

@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Traits;
+namespace ErbiumTech\OpenPayroll\Traits;
 
 trait MakeInstance
 {

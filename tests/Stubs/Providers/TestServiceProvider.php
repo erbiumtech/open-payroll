@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Stubs\Providers;
+namespace ErbiumTech\OpenPayroll\Tests\Stubs\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        \JayThakkar\OpenPayroll\OpenPayroll::routes();
+        \ErbiumTech\OpenPayroll\OpenPayroll::routes();
     }
 
     /**

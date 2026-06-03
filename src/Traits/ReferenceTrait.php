@@ -1,11 +1,11 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Traits;
+namespace ErbiumTech\OpenPayroll\Traits;
 
-use JayThakkar\OpenPayroll\Models\Deduction\Type as DeductionType;
-use JayThakkar\OpenPayroll\Models\Earning\Type as EarningType;
-use JayThakkar\OpenPayroll\Models\Payroll\Status as PayrollStatus;
-use JayThakkar\OpenPayroll\Models\Payslip\Status as PayslipStatus;
+use ErbiumTech\OpenPayroll\Models\Deduction\Type as DeductionType;
+use ErbiumTech\OpenPayroll\Models\Earning\Type as EarningType;
+use ErbiumTech\OpenPayroll\Models\Payroll\Status as PayrollStatus;
+use ErbiumTech\OpenPayroll\Models\Payslip\Status as PayslipStatus;
 use Illuminate\Support\Str;
 
 trait ReferenceTrait

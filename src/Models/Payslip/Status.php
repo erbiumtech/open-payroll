@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Models\Payslip;
+namespace ErbiumTech\OpenPayroll\Models\Payslip;
 
 use Illuminate\Database\Eloquent\Model;
 

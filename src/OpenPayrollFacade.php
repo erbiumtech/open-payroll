@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll;
+namespace ErbiumTech\OpenPayroll;
 
 /*
  * This file is part of open-payroll
@@ -27,7 +27,7 @@ class OpenPayrollFacade extends Facade
         $defaultOptions = [
             'prefix'    => 'OpenPayroll',
             'as'        => 'open-payroll.',
-            'namespace' => '\JayThakkar\OpenPayroll\Http\Controllers',
+            'namespace' => '\ErbiumTech\OpenPayroll\Http\Controllers',
         ];
         $options = array_merge($defaultOptions, $options);
         Route::group($options, function($router) use ($callback) {

@@ -1,9 +1,9 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Processor;
+namespace ErbiumTech\OpenPayroll\Tests\Processor;
 
-use JayThakkar\OpenPayroll\Tests\TestCase;
-use JayThakkar\OpenPayroll\Tests\Traits\PayrollTrait;
+use ErbiumTech\OpenPayroll\Tests\TestCase;
+use ErbiumTech\OpenPayroll\Tests\Traits\PayrollTrait;
 
 class PayslipProcessor extends TestCase
 {

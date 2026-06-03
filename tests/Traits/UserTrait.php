@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Traits;
+namespace ErbiumTech\OpenPayroll\Tests\Traits;
 
 trait UserTrait
 {

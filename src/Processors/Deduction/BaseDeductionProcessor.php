@@ -1,12 +1,12 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Processors\Deduction;
+namespace ErbiumTech\OpenPayroll\Processors\Deduction;
 
 use App\Models\OpenPayroll\Deduction;
 use App\Models\OpenPayroll\DeductionType;
 use Carbon\Carbon;
-use JayThakkar\OpenPayroll\Contracts\CalculateContract;
-use JayThakkar\OpenPayroll\Traits\MakeInstance;
+use ErbiumTech\OpenPayroll\Contracts\CalculateContract;
+use ErbiumTech\OpenPayroll\Traits\MakeInstance;
 
 class BaseDeductionProcessor implements CalculateContract
 {

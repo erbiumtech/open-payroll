@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Console\Commands;
+namespace ErbiumTech\OpenPayroll\Console\Commands;
 
 use Illuminate\Console\Command;
 
@@ -36,7 +36,7 @@ class InstallCommand extends Command
     public function handle()
     {
         $this->call('vendor:publish', [
-            '--provider' => 'JayThakkar\OpenPayroll\OpenPayrollServiceProvider',
+            '--provider' => 'ErbiumTech\OpenPayroll\OpenPayrollServiceProvider',
             '--force'    => true,
         ]);
 

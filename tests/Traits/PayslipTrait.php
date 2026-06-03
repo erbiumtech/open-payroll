@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Traits;
+namespace ErbiumTech\OpenPayroll\Tests\Traits;
 
-use JayThakkar\OpenPayroll\Models\Payslip\Payslip;
+use ErbiumTech\OpenPayroll\Models\Payslip\Payslip;
 
 trait PayslipTrait
 {

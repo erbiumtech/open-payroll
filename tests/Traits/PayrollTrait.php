@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Traits;
+namespace ErbiumTech\OpenPayroll\Tests\Traits;
 
-use JayThakkar\OpenPayroll\Models\Payroll\Payroll;
+use ErbiumTech\OpenPayroll\Models\Payroll\Payroll;
 
 trait PayrollTrait
 {

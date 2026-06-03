@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll;
+namespace ErbiumTech\OpenPayroll;
 
 use Illuminate\Support\ServiceProvider;
 

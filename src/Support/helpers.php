@@ -3,14 +3,14 @@
 if (! function_exists('payroll')) {
     function payroll($identifier)
     {
-        return \JayThakkar\OpenPayroll\Processors\PayrollProcessor::make($identifier);
+        return \ErbiumTech\OpenPayroll\Processors\PayrollProcessor::make($identifier);
     }
 }
 
 if (! function_exists('payslip')) {
     function payslip($identifier)
     {
-        return \JayThakkar\OpenPayroll\Processors\PayslipProcessor::make($identifier);
+        return \ErbiumTech\OpenPayroll\Processors\PayslipProcessor::make($identifier);
     }
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests;
+namespace ErbiumTech\OpenPayroll\Tests;
 
-use JayThakkar\OpenPayroll\Traits\ReferenceTrait;
+use ErbiumTech\OpenPayroll\Traits\ReferenceTrait;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
 
@@ -66,11 +66,11 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            \JayThakkar\OpenPayroll\OpenPayrollServiceProvider::class,
-            \JayThakkar\LaravelObservers\LaravelObserversServiceProvider::class,
-            \JayThakkar\LaravelHelper\LaravelHelperServiceProvider::class,
-            \JayThakkar\Blueprint\Macro\BlueprintMacroServiceProvider::class,
-            \JayThakkar\OpenPayroll\Tests\Stubs\Providers\TestServiceProvider::class,
+            \ErbiumTech\OpenPayroll\OpenPayrollServiceProvider::class,
+            \ErbiumTech\LaravelObservers\LaravelObserversServiceProvider::class,
+            \ErbiumTech\LaravelHelper\LaravelHelperServiceProvider::class,
+            \ErbiumTech\Blueprint\Macro\BlueprintMacroServiceProvider::class,
+            \ErbiumTech\OpenPayroll\Tests\Stubs\Providers\TestServiceProvider::class,
         ];
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests;
+namespace ErbiumTech\OpenPayroll\Tests;
 
 class BaseOpenPayrollTest extends TestCase
 {
@@ -25,26 +25,26 @@ class BaseOpenPayrollTest extends TestCase
     /** @test */
     public function it_has_payroll_processor()
     {
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Processors\PayrollProcessor::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Processors\PayrollProcessor::class);
     }
 
     /** @test */
     public function it_has_payslip_processor()
     {
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Processors\PayslipProcessor::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Processors\PayslipProcessor::class);
     }
 
     /** @test */
     public function it_has_model()
     {
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Payroll\Payroll::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Payroll\Status::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Payslip\Payslip::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Payslip\Status::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Deduction\Deduction::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Deduction\Type::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Earning\Earning::class);
-        $this->assertHasClass(\JayThakkar\OpenPayroll\Models\Earning\Type::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Payroll\Payroll::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Payroll\Status::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Payslip\Payslip::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Payslip\Status::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Deduction\Deduction::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Deduction\Type::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Earning\Earning::class);
+        $this->assertHasClass(\ErbiumTech\OpenPayroll\Models\Earning\Type::class);
     }
 
     /** @test */

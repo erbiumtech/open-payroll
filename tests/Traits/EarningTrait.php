@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Tests\Traits;
+namespace ErbiumTech\OpenPayroll\Tests\Traits;
 
-use JayThakkar\OpenPayroll\Models\Earning\Type as EarningType;
+use ErbiumTech\OpenPayroll\Models\Earning\Type as EarningType;
 
 trait EarningTrait
 {
@@ -27,7 +27,7 @@ trait EarningTrait
                 'name'            => $type->name,
                 'description'     => $type->description,
                 'amount'          => 100000,
-            ], \JayThakkar\OpenPayroll\Models\Earning\Earning::class);
+            ], \ErbiumTech\OpenPayroll\Models\Earning\Earning::class);
         }
     }
 }

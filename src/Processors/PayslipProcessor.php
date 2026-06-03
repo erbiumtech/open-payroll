@@ -1,9 +1,9 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Processors;
+namespace ErbiumTech\OpenPayroll\Processors;
 
 use Carbon\Carbon;
-use JayThakkar\OpenPayroll\Contracts\CalculateContract;
+use ErbiumTech\OpenPayroll\Contracts\CalculateContract;
 use Illuminate\Support\Str;
 
 class PayslipProcessor implements CalculateContract

@@ -1,9 +1,9 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Processors\Earning;
+namespace ErbiumTech\OpenPayroll\Processors\Earning;
 
-use JayThakkar\OpenPayroll\Contracts\CalculateContract;
-use JayThakkar\OpenPayroll\Traits\MakeInstance;
+use ErbiumTech\OpenPayroll\Contracts\CalculateContract;
+use ErbiumTech\OpenPayroll\Traits\MakeInstance;
 
 class BaseEarningProcessor implements CalculateContract
 {

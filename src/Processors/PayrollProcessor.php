@@ -1,8 +1,8 @@
 <?php
 
-namespace JayThakkar\OpenPayroll\Processors;
+namespace ErbiumTech\OpenPayroll\Processors;
 
-use JayThakkar\OpenPayroll\Contracts\CalculateContract;
+use ErbiumTech\OpenPayroll\Contracts\CalculateContract;
 
 class PayrollProcessor implements CalculateContract
 {

@@ -2,7 +2,7 @@
 
 namespace App\Models\OpenPayroll;
 
-use JayThakkar\OpenPayroll\Models\Earning\Earning as OPEarning;
+use ErbiumTech\OpenPayroll\Models\Earning\Earning as OPEarning;
 
 class Earning extends OPEarning
 {
